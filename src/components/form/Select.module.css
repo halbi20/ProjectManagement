@@ -1,0 +1,29 @@
+.control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.control label {
+    margin-bottom: .8rem;
+}
+
+
+.control select {
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+  
+  
+.control select:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.control select:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,16 @@
+.btn {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background-color: orchid;
+    color: #fff;
+}
